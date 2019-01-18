@@ -1,0 +1,85 @@
+.uk-navbar-li {
+  margin-left: 40%;
+}
+
+.uk-navbar-li > li > a,
+.uk-navbar-item,
+.uk-navbar-toggle {
+  font-size: 16px;
+}
+
+.locationsxm971 {
+  font-size: 80px;
+}
+
+h3,
+.uk-heading-bullet {
+  font-size: 20px;
+  margin-left: -1%;
+  margin-top: 2%;
+}
+
+table {
+  font-size: 16px;
+  text-align: center;
+  width: 100%;
+  margin-left: 20%;
+  padding-top: 4%;
+  margin: 0;
+}
+
+.prix {
+  margin-left: 2%;
+  font-size: 14px;
+}
+
+.SejourMin {
+  margin-left: 2%;
+  font-size: 12px;
+}
+
+.infosCaution {
+  margin-left: 30%;
+  padding-top: 10%;
+  font-size: 13px;
+}
+
+.logoI {
+  margin-right: 3%;
+}
+
+.contrat {
+  text-align: justify;
+  width: 80%;
+  font-size: 0.9em;
+  margin-left: 10%;
+  margin-top: 1%;
+  padding-bottom: 15%;
+}
+
+.contenairR {
+  display: flex;
+  margin-left: 15%;
+  margin-top: 3%;
+}
+
+.antilleslocation {
+  width: 250px;
+  height: 200px;
+}
+
+.airbnb {
+  width: 220px;
+  height: 60px;
+  margin-left: 20%;
+  margin-top: 38%;
+}
+
+.facebook {
+  margin-left: 40%;
+}
+
+.lien {
+  margin-left: 31%;
+  margin-top: 4%;
+}

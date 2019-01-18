@@ -1,0 +1,98 @@
+.uk-navbar-li {
+  margin-left: -1%;
+}
+
+.uk-navbar-li > li > a,
+.uk-navbar-item,
+.uk-navbar-toggle {
+  font-size: 11px;
+}
+
+.locationsxm971 {
+  font-size: 32px;
+}
+h3,
+.uk-heading-bullet {
+  font-size: 15px;
+  margin-left: -1%;
+  margin-top: 15%;
+}
+
+.logoAirf {
+  width: 200px;
+  height: 30px;
+  margin-left: 20%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.airfrance {
+  width: 370px;
+  height: 250px;
+  margin-left: 3%;
+  margin-top: 2%;
+  border-radius: 2%;
+}
+
+.infosAirf {
+  width: 80%;
+  text-align: justify;
+  margin-left: 7%;
+  margin-right: 6%;
+  padding-top: 8%;
+  font-size: 12px;
+}
+
+.airportFrance {
+  display: inline-block;
+}
+
+.airCaraibe {
+  width: 370px;
+  height: 250px;
+  margin-left: 3%;
+  margin-top: 2%;
+  border-radius: 2%;
+}
+
+.airportCaraibe {
+  display: inline-block;
+}
+
+.infosCar {
+  font-size: 12px;
+  margin-top: 10%;
+}
+
+.logoCar {
+  width: 200px;
+  height: 30px;
+  margin-left: 20%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.mapFr {
+  width: 400px;
+  height: 600px;
+  margin: 0;
+}
+
+.mapFrho {
+  margin: 0;
+  width: 700px;
+  height: 300px;
+}
+
+.mapHol {
+  margin: 0;
+}
+
+.facebook {
+  margin-left: 32%;
+}
+
+.lien {
+  margin-left: 30%;
+  margin-top: 5%;
+}

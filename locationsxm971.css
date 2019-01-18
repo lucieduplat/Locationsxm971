@@ -1,0 +1,718 @@
+.uk-navbar-color {
+  background-color: #fff7ed;
+}
+
+.uk-navbar-li {
+  display: flex;
+  /* 1 */
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-left: 165%;
+}
+/*
+   * Allow items to wrap into the next line
+   * Only not `absolute` positioned groups
+   */
+.uk-navbar-left,
+.uk-navbar-right,
+.uk-navbar-center:only-child {
+  flex-wrap: wrap;
+}
+/*
+   * Items
+   * 1. Center content vertically and horizontally
+   * 2. Dimensions
+   * 3. Style
+   * 4. Required for `a`
+   */
+.uk-navbar-li > li > a,
+.uk-navbar-item,
+.uk-navbar-toggle {
+  /* 1 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* 2 */
+  box-sizing: border-box;
+  min-height: 100px;
+  padding: 0 15px;
+  /* 3 */
+  font-size: 16px;
+  font-family: "Arial Narow";
+  /* 4 */
+  text-decoration: none;
+}
+/*
+   * Nav items
+   */
+.uk-navbar-li > li > a {
+  color: #999;
+  text-transform: uppercase;
+  transition: 0.1s ease-in-out;
+  transition-property: color, background-color;
+  font-weight: bold;
+}
+/*
+   * Hover
+   * Apply hover style also to focus state and if dropdown is opened
+   */
+.uk-navbar-li > li:hover > a,
+.uk-navbar-li > li > a:focus,
+.uk-navbar-li > li > a.uk-open {
+  color: #666;
+  outline: none;
+}
+/* OnClick */
+.uk-navbar-li > li > a:active {
+  color: #333;
+}
+
+/* Item
+   ========================================================================== */
+.uk-navbar-item {
+  color: #666;
+}
+
+.locationsxm971 {
+  font-family: "Kaushan Script", cursive;
+  font-size: 80px;
+  margin-top: 7%;
+  color: white;
+}
+
+p {
+  font-family: "Exo 2", sans-serif;
+  font-size: 1.1em;
+}
+
+.uk-heading-bullet {
+  font-family: "Saira Semi Condensed", sans-serif;
+  font-size: 35px;
+  text-align: center;
+}
+
+.studioInf {
+  padding-top: 6%;
+}
+
+.description {
+  text-align: justify;
+  width: 50%;
+  padding-left: 3%;
+  padding-top: 2%;
+}
+
+.locationV {
+  font-weight: bold;
+}
+
+.promoV {
+  color: #edbf80;
+  font-weight: bold;
+}
+
+.sp {
+  text-align: right;
+  margin-top: 9%;
+}
+
+.img15,
+.textsp {
+  padding-top: 2%;
+}
+
+.infoSp {
+  font-weight: bold;
+}
+
+.confort {
+  margin-top: 13%;
+}
+
+.titrecp {
+  font-weight: bold;
+  padding-left: 5%;
+}
+
+.aventure {
+  height: 25px;
+  width: 500px;
+  overflow: hidden;
+  position: relative;
+  font-weight: bold;
+  color: black;
+  margin-left: 34%;
+  font-size: 20px;
+  padding-bottom: 10%;
+}
+
+.aventure span {
+  float: left;
+  width: 50%;
+}
+
+.aventure div {
+  display: block;
+  width: 200%;
+  height: 30px;
+  position: absolute;
+  overflow: hidden;
+
+  animation: aventure 5s linear infinite;
+}
+
+@keyframes aventure {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -100%;
+  }
+}
+
+.contenair {
+  display: flex;
+  margin-bottom: 5%;
+}
+
+.confortS {
+  width: 20%;
+  padding: 1%;
+  text-align: center;
+  margin-left: 23%;
+  border-radius: 56px 56px 56px 56px;
+  -moz-border-radius: 56px 56px 56px 56px;
+  -webkit-border-radius: 56px 56px 56px 56px;
+  border: 6px double #edbf80;
+  -webkit-box-shadow: 14px 14px 5px -6px rgba(0, 0, 0, 0.27);
+  -moz-box-shadow: 14px 14px 5px -6px rgba(0, 0, 0, 0.27);
+  box-shadow: 14px 14px 5px -6px rgba(0, 0, 0, 0.27);
+}
+
+.confortS:hover {
+  opacity: 0.8;
+  transition-duration: 0.3s;
+  color: black;
+  font-weight: bold;
+}
+
+.prestations {
+  width: 20%;
+  padding: 1%;
+  text-align: center;
+  margin-left: 6%;
+  border-radius: 56px 56px 56px 56px;
+  -moz-border-radius: 56px 56px 56px 56px;
+  -webkit-border-radius: 56px 56px 56px 56px;
+  border: 6px double #edbf80;
+  -webkit-box-shadow: 14px 14px 5px -6px rgba(0, 0, 0, 0.27);
+  -moz-box-shadow: 14px 14px 5px -6px rgba(0, 0, 0, 0.27);
+  box-shadow: 14px 14px 5px -6px rgba(0, 0, 0, 0.27);
+}
+
+.prestations:hover {
+  opacity: 0.8;
+  transition-duration: 0.3s;
+  color: black;
+  font-weight: bold;
+}
+
+footer.page-footer {
+  background-color: #fff7ed;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #a00;
+}
+
+footer {
+  background-color: #fff7ed;
+  height: 100px;
+  margin-top: 100px;
+}
+
+.titreSlide {
+  font-family: "Saira Semi Condensed", sans-serif;
+  margin-bottom: 2%;
+}
+
+.img16 {
+  width: 400x;
+  height: 250px;
+}
+
+.img17 {
+  width: 400x;
+  height: 250px;
+}
+
+.img18 {
+  width: 400x;
+  height: 250px;
+}
+
+.img19 {
+  width: 400x;
+  height: 250px;
+}
+
+.img4 {
+  float: right;
+  width: 750px;
+  height: 500px;
+  margin-right: 3%;
+  border-radius: 2%;
+  margin-top: 4%;
+}
+
+.img15 {
+  float: left;
+  width: 1000px;
+  height: 250px;
+  margin-left: 10%;
+}
+
+.textsp {
+  margin-top: 3%;
+  margin-right: 15%;
+}
+
+.imgconfort {
+  margin-top: 3%;
+  margin-left: 12%;
+  margin-bottom: 3%;
+}
+
+.backward {
+  width: 20px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.forward {
+  width: 20px;
+  height: 25px;
+  margin-left: 10px;
+}
+
+.slider {
+  padding-bottom: 5%;
+}
+
+video {
+  display: block;
+  width: 80%;
+  margin: 0 auto 35px auto;
+  margin-bottom: 13%;
+  margin-top: 3%;
+}
+
+.iconeLocation {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  margin-top: -3%;
+}
+
+.imglocalisation {
+  float: right;
+  margin-right: 10%;
+  margin-top: 8%;
+  height: 700px;
+  width: 450px;
+  border-radius: 2%;
+}
+
+.textlocalisation {
+  padding-top: 4%;
+  padding-left: 6%;
+  text-align: justify;
+  width: 50%;
+}
+
+.marigot {
+  padding-left: 31%;
+  font-weight: bold;
+}
+
+iframe {
+  margin-left: 14%;
+  margin-top: 3%;
+}
+
+.imgPlage {
+  margin-top: 8%;
+}
+
+.uk-divider-icon {
+  padding-top: 10%;
+}
+
+.titreV {
+  font-family: "Saira Semi Condensed", sans-serif;
+}
+
+.locaLoisirs {
+  margin-left: 38%;
+}
+
+.logoLoca {
+  width: 45px;
+  height: 40px;
+  margin-top: -1%;
+}
+
+svg {
+  width: 11%;
+  height: 11%;
+  padding-left: 10px;
+  margin-top: -3%;
+}
+
+.titreLoisirs {
+  background-color: black;
+  text-align: center;
+}
+
+.commercesLoisirs {
+  border: 2px solid black;
+  background-color: #fff7ed;
+  text-align: justify;
+  padding: 3%;
+  opacity: 0.7;
+}
+
+.commercesLoisirs:hover {
+  opacity: 0.8;
+  transition-duration: 0.3s;
+}
+
+.textCommerces {
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+  opacity: 1;
+  padding-left: 5%;
+}
+
+.textLoisirs {
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+  padding-left: 40%;
+  opacity: 1;
+}
+
+.textLoisirsbis {
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+  padding-left: 40%;
+  opacity: 1;
+}
+
+.facebook {
+  margin-left: 44%;
+  width: 30px;
+  height: 30px;
+  margin-top: 2%;
+  border-radius: 30%;
+}
+
+.instagram {
+  width: 30px;
+  height: 30px;
+  margin-left: 3%;
+  margin-top: 2%;
+}
+
+.twitter {
+  width: 30px;
+  height: 30px;
+  margin-left: 3%;
+  margin-top: 2%;
+}
+
+.lien {
+  font-weight: bold;
+  bottom: 0;
+  margin-left: 42%;
+  margin-top: 1%;
+}
+
+.tarifs {
+  padding-top: 6%;
+}
+
+table {
+  text-align: center;
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 5%;
+}
+
+td {
+  padding: 2%;
+}
+
+.colorth {
+  background-color: #fcecd9;
+}
+
+.prix {
+  color: orange;
+  font-weight: bold;
+  margin-left: 20%;
+}
+
+.SejourMin {
+  font-weight: bold;
+  margin-left: 20%;
+  color: grey;
+  font-size: 15px;
+}
+
+.logoI {
+  width: 38px;
+  height: 30px;
+  margin-right: 1%;
+  margin-top: -1%;
+}
+
+.infosCaution {
+  margin-left: 38%;
+  margin-top: 7%;
+  font-weight: bold;
+}
+
+.contrat {
+  text-align: justify;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 1%;
+  padding-bottom: 8%;
+}
+
+.airbnb {
+  width: 300px;
+  height: 85px;
+  margin-left: 20%;
+
+  margin-top: 23%;
+}
+
+.airbnb:hover {
+  opacity: 0.8;
+}
+
+.antilleslocation {
+  width: 300px;
+  height: 220px;
+}
+
+.antilleslocation:hover {
+  opacity: 0.8;
+}
+
+.contenairR {
+  display: flex;
+  margin-left: 31%;
+  margin-top: 3%;
+}
+
+.compagnies {
+  padding-top: 6%;
+}
+
+.airfrance {
+  width: 700px;
+  height: 500px;
+  margin-right: 3%;
+  margin-top: 2%;
+  border-radius: 2%;
+}
+
+.infosAirf {
+  width: 80%;
+  text-align: justify;
+  margin-left: 7%;
+  margin-right: 6%;
+  padding-top: 8%;
+}
+
+.airportFrance {
+  display: flex;
+}
+
+.logoAirf {
+  width: 330px;
+  height: 50px;
+  margin-left: 33%;
+  margin-top: 10%;
+}
+
+.airportCaraibe {
+  display: flex;
+  margin-top: 5%;
+}
+
+.airCaraibe {
+  width: 800px;
+  height: 500px;
+  margin-left: 3%;
+  margin-top: 2%;
+  border-radius: 2%;
+}
+
+.infosCar {
+  width: 80%;
+  text-align: justify;
+  margin-left: 8%;
+  margin-top: 6%;
+}
+
+.logoCar {
+  width: 330px;
+  height: 60px;
+  margin-left: 31%;
+  margin-top: 6%;
+}
+
+.coord {
+  font-weight: bold;
+  color: #04193f;
+}
+
+.infVol {
+  font-weight: bold;
+}
+
+.map {
+  display: flex;
+}
+
+.mapFr {
+  width: 400px;
+  height: 600px;
+  margin-left: 10%;
+}
+
+.mapFrho {
+  width: 600x;
+  height: 600px;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+
+.mapHol {
+  width: 400px;
+  height: 600px;
+}
+
+.mapFr:hover {
+  transition-duration: 0.3s;
+  width: 650x;
+  height: 650px;
+}
+
+.mapHol:hover {
+  transition-duration: 0.3s;
+  width: 650x;
+  height: 650px;
+}
+
+article {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+
+.infJohan {
+  padding-top: 4%;
+  margin-bottom: 10%;
+}
+
+.infJohan article {
+  background-color: #fff7f4;
+}
+
+h4,
+.uk-comment-title {
+  font-weight: bold;
+}
+
+.visiteurs {
+  padding-left: 5%;
+  font-size: 16px;
+}
+
+.uk-comment-body {
+  text-align: justify;
+  padding-top: 2%;
+}
+
+.bye {
+  margin-top: 5%;
+}
+
+form {
+  text-align: center;
+  padding-top: 2%;
+}
+
+input {
+  display: inline-block;
+  min-width: 200px;
+}
+
+textarea {
+  resize: none;
+}
+.form-label {
+  font-size: 12px;
+  color: #5e9bfc;
+  margin: 0;
+  display: block;
+  opacity: 1;
+  -webkit-transition: 0.333s ease top, 0.333s ease opacity;
+  transition: 0.333s ease top, 0.333s ease opacity;
+}
+.form-control {
+  border-radius: 0;
+  border-color: #ccc;
+  border-width: 0 0 2px 0;
+  border-style: none none solid none;
+  box-shadow: none;
+}
+.form-control:focus {
+  box-shadow: none;
+  border-color: #5e9bfc;
+}
+.js-hide-label {
+  opacity: 0;
+}
+.js-unhighlight-label {
+  color: #999;
+}
+.btn-start-order {
+  background: 0 0 #ffffff;
+  border: 1px solid #2f323a;
+  border-radius: 3px;
+  color: #2f323a;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  line-height: inherit;
+  margin: 30px 0;
+  padding: 10px 50px;
+  text-transform: uppercase;
+  transition: all 0.25s ease 0s;
+}
+.btn-start-order:hover,
+.btn-start-order:active,
+.btn-start-order:focus {
+  border-color: #f7cf9e;
+  color: #f7cf9e;
+}

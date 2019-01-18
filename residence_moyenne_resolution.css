@@ -1,0 +1,200 @@
+@media screen and (max-width: 380px) {
+  .uk-navbar-li {
+    margin-left: 6%;
+  }
+
+  .uk-navbar-li > li > a,
+  .uk-navbar-item,
+  .uk-navbar-toggle {
+    font-size: 11px;
+  }
+
+  .locationsxm971 {
+    font-size: 32px;
+  }
+
+  .img4 {
+    height: 240px;
+    margin: 0;
+    margin-bottom: 5%;
+  }
+
+  .studioInf {
+    margin-top: 13%;
+  }
+
+  h3,
+  .uk-heading-bullet {
+    font-size: 15px;
+    margin-left: -1%;
+  }
+
+  p,
+  .descritpion {
+    padding-left: 20%;
+    width: 150%;
+  }
+
+  .studioInf {
+    margin-left: -2%;
+  }
+
+  .sp {
+    padding-top: 12%;
+  }
+
+  .img15 {
+    max-width: 100%;
+    height: 110px;
+    margin: 0;
+    float: none;
+  }
+
+  .img19 {
+    width: 333px;
+    height: 250px;
+  }
+
+  .confort {
+    padding-top: 10%;
+  }
+
+  .imgconfort {
+    margin: 0;
+  }
+
+  .img18 {
+    width: 500px;
+  }
+
+  .img19 {
+    width: 500px;
+  }
+  .img16 {
+    width: 500px;
+  }
+  .img17 {
+    width: 500px;
+    margin-bottom: 15%;
+  }
+
+  .textsp {
+    margin-left: 12%;
+    text-align: justify;
+    margin-top: 5%;
+  }
+
+  .confortS {
+    height: -10%;
+    margin-right: 5%;
+    margin-left: 2%;
+  }
+
+  .prestations {
+    width: 50%;
+    height: -10%;
+    width: 40%;
+    margin-right: 10%;
+  }
+
+  .textcp {
+    width: 80%;
+    height: 3%;
+    font-size: 8px;
+    margin: 0;
+  }
+
+  .titrecp {
+    font-size: 10px;
+    margin: 0;
+  }
+
+  .aventure {
+    height: 30px;
+    width: 100%;
+    font-size: 12px;
+    margin: 0;
+    padding-top: 5%;
+  }
+
+  .titreSlide {
+    font-size: 25px;
+  }
+
+  .titreV {
+    font-size: 25px;
+  }
+
+  .titreSvl {
+    font-size: 20px;
+    margin-left: -26%;
+  }
+
+  .logoLoca {
+    width: 30px;
+    height: 30px;
+    margin-left: -3%;
+    margin-bottom: 3%;
+  }
+
+  video {
+    width: 100%;
+  }
+
+  .imglocalisation {
+    height: 400px;
+    width: 250px;
+    margin-right: 18%;
+    margin-bottom: 15%;
+  }
+
+  h4,
+  .marigot {
+    font-size: 12px;
+    margin-right: -60%;
+    margin-left: 11%;
+  }
+
+  .textlocalisation {
+    margin-left: -5%;
+    margin-bottom: 15%;
+  }
+
+  iframe {
+    width: 100%;
+    margin: 0;
+    height: 350px;
+    margin-bottom: 15%;
+  }
+
+  .titreLoisirs {
+    font-size: 15px;
+  }
+
+  .textCommerces {
+    font-size: 12px;
+  }
+
+  .textLoisirs {
+    margin-left: -35%;
+    font-size: 12px;
+  }
+
+  .textLoisirsbis {
+    margin-left: -35%;
+    font-size: 12px;
+  }
+
+  p {
+    font-size: 0.8em;
+  }
+
+  .facebook {
+    margin-left: 32%;
+  }
+
+  .lien {
+    margin-left: 30%;
+    margin-top: 3%;
+  }
+}

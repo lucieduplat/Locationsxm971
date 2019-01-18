@@ -1,0 +1,246 @@
+.uk-navbar-li {
+  margin-left: 70%;
+}
+
+.uk-navbar-li > li > a,
+.uk-navbar-item,
+.uk-navbar-toggle {
+  font-size: 16px;
+}
+
+.locationsxm971 {
+  font-size: 80px;
+  margin-left: -19%;
+}
+
+h3,
+.uk-heading-bullet {
+  font-size: 35px;
+  margin-left: -1%;
+}
+
+.img4 {
+  width: 820px;
+  height: 500px;
+  margin-bottom: 5%;
+  margin-right: 11%;
+  position: inline-block;
+}
+
+.studioInf {
+  margin-top: 13%;
+}
+
+p,
+.descritpion {
+  padding-left: 18%;
+  width: 150%;
+}
+
+.studioInf {
+  margin-left: -2%;
+}
+
+.sp {
+  padding-top: 12%;
+}
+
+.img15 {
+  width: 800px;
+  height: 250px;
+  margin-right: 16%;
+  float: none;
+}
+
+.img19 {
+  width: 333px;
+  height: 250px;
+}
+
+.confort {
+  padding-top: 10%;
+}
+
+.imgconfort {
+  margin-left: 25%;
+}
+
+.img18 {
+  width: 500px;
+}
+
+.img19 {
+  width: 500px;
+}
+.img16 {
+  width: 500px;
+}
+.img17 {
+  width: 500px;
+  margin-bottom: 15%;
+}
+
+.textsp {
+  margin-left: 30%;
+  text-align: justify;
+  margin-top: 5%;
+}
+
+.confortS {
+  width: 30%;
+  padding: 1%;
+  text-align: center;
+  margin-left: 13%;
+  border-radius: 56px 56px 56px 56px;
+  -moz-border-radius: 56px 56px 56px 56px;
+  -webkit-border-radius: 56px 56px 56px 56px;
+  border: 6px double #edbf80;
+  -webkit-box-shadow: 14px 14px 5px -6px rgba(0, 0, 0, 0.27);
+  -moz-box-shadow: 14px 14px 5px -6px rgba(0, 0, 0, 0.27);
+  box-shadow: 14px 14px 5px -6px rgba(0, 0, 0, 0.27);
+}
+
+.prestations {
+  width: 30%;
+  padding: 1%;
+  text-align: center;
+  margin-left: 6%;
+  border-radius: 56px 56px 56px 56px;
+  -moz-border-radius: 56px 56px 56px 56px;
+  -webkit-border-radius: 56px 56px 56px 56px;
+  border: 6px double #edbf80;
+  -webkit-box-shadow: 14px 14px 5px -6px rgba(0, 0, 0, 0.27);
+  -moz-box-shadow: 14px 14px 5px -6px rgba(0, 0, 0, 0.27);
+  box-shadow: 14px 14px 5px -6px rgba(0, 0, 0, 0.27);
+}
+
+.textcp {
+  width: 90%;
+  font-size: 15px;
+  margin: 0;
+  margin-left: -12%;
+}
+
+.titrecp {
+  font-size: 15px;
+  margin: 0;
+  margin-top: 10%;
+}
+
+.aventure {
+  height: 25px;
+  width: 500px;
+  overflow: hidden;
+  position: relative;
+  font-weight: bold;
+  color: black;
+  margin-left: 24%;
+  font-size: 20px;
+  padding-bottom: 10%;
+}
+
+.aventure span {
+  float: left;
+  width: 50%;
+}
+
+.aventure div {
+  display: block;
+  width: 200%;
+  height: 30px;
+  position: absolute;
+  overflow: hidden;
+
+  animation: aventure 5s linear infinite;
+}
+
+@keyframes aventure {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -100%;
+  }
+}
+
+.titreSlide {
+  font-size: 25px;
+}
+
+.titreV {
+  font-size: 25px;
+}
+
+.titreSvl {
+  font-size: 20px;
+  margin-left: 3%;
+}
+
+.logoLoca {
+  width: 30px;
+  height: 30px;
+  margin-left: -1%;
+  margin-top: 1%;
+  margin-bottom: 3%;
+}
+
+video {
+  width: 100%;
+}
+
+.imglocalisation {
+  height: 400px;
+  width: 250px;
+  margin-left: 10%;
+  margin-bottom: 15%;
+}
+
+h4,
+.marigot {
+  font-size: 12px;
+  margin-top: 20%;
+  margin-left: 12%;
+}
+
+.textlocalisation {
+  margin-left: -5%;
+  margin-bottom: 15%;
+}
+
+iframe {
+  width: 100%;
+  margin: 0;
+  height: 350px;
+  margin-bottom: 15%;
+}
+
+.titreLoisirs {
+  font-size: 15px;
+}
+
+.textCommerces {
+  font-size: 12px;
+}
+
+.textLoisirs {
+  margin-left: -35%;
+  font-size: 12px;
+}
+
+.textLoisirsbis {
+  margin-left: -35%;
+  font-size: 12px;
+}
+
+p {
+  font-size: 0.8em;
+}
+
+.facebook {
+  margin-left: 41%;
+}
+
+.lien {
+  margin-left: 35%;
+  margin-top: 2%;
+}
